@@ -1,0 +1,8 @@
+The factorial program was successfully implemented using the recursive 
+method, where the function repeatedly calls 
+itself until it reaches the base case (n = 0 or n = 1). This method provides
+ a simple and clear approach for calculating factorials.
+Time Complexity: O(n)
+Space Complexity: O(n)
+Thus, the recursive method is easy to implement and understand,
+ but it requires additional memory for recursive function calls.
