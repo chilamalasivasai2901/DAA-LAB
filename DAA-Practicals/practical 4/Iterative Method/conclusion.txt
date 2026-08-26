@@ -1,0 +1,10 @@
+The factorial program was successfully 
+implemented using the iterative method. 
+The program calculates the factorial by 
+repeatedly multiplying numbers from 1 to 
+n using a loop. It is efficient in terms of 
+memory as it does not use recursion. 
+Time Complexity: O(n) Space Complexity: O(1) 
+Thus, the iterative method provides an efficient 
+and simple approach for
+ calculating the factorial of a number.
