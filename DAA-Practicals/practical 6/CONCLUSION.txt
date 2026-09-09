@@ -1,0 +1,8 @@
+The Matrix Chain Multiplication (MCM) algorithm using Dynamic Programming 
+efficiently finds the optimal order of multiplying a chain of matrices while
+ minimizing the number of scalar multiplications. It avoids repeatedly solving
+  the same subproblems by storing their results in a DP table.
+Time Complexity: O(n³)
+There are three nested loops over the matrix chain.
+Space Complexity: O(n²)
+The DP table m requires an n × n matrix.
