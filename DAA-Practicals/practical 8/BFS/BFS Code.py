@@ -17,14 +17,23 @@ def bfs(graph, start):
                 queue.append(neighbor)
 
 
-graph = {
-    0: [1, 2],
-    1: [0, 3, 4],
-    2: [0, 5],
-    3: [1],
-    4: [1],
-    5: [2]
-}
+n = int(input("Enter number of vertices: "))
+
+graph = {}
+
+for i in range(n):
+    graph[i] = []
+
+e = int(input("Enter number of edges: "))
+
+for i in range(e):
+    u = int(input("Enter first vertex: "))
+    v = int(input("Enter second vertex: "))
+
+    graph[u].append(v)
+    graph[v].append(u)
+
+start = int(input("Enter starting vertex: "))
 
 print("BFS:", end=" ")
-bfs(graph, 0)
+bfs(graph, start)
